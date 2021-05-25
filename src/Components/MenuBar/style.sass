@@ -1,0 +1,87 @@
+@import "src/assets/fonts"
+@import "src/assets/colors"
+.navContainer
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-around
+  align-items: center
+  margin-right: 5.551%
+
+
+
+.logo-container
+  flex: 1
+  flex-direction: row
+  display: flex
+  align-items: baseline
+
+.icon
+    height: 36.23px
+    width: 35px
+    margin-right: 10px
+
+.text
+    font-weight: 400
+    font-size: 16px
+.textContainer
+  display: flex
+  flex-wrap: wrap
+  flex: 1
+  flex-direction: row
+
+  text-align: center
+  justify-content: space-between
+.signIn
+  font-weight: 500
+  font-size: 16px
+  margin-right: 50px
+.signUpText
+  font: $primaryFont
+  font-style: normal
+  font-weight: 500
+  font-size: 16px
+  line-height: 19px
+  margin: 13px 45px
+
+
+.signUpButton
+  border-radius: 50px
+  border: 1px solid $primaryColor
+  box-sizing: border-box
+  background-color: white
+  align-items: center
+  color:  #F53855
+  &:hover
+    background-color: $primaryColor
+    color: white
+
+
+
+
+.buttonDiv
+  flex: 1
+  flex-direction: row
+  display: flex
+  justify-content: flex-end
+  align-items: baseline
+.menu-icon
+  display: none
+
+@media (max-width: 1024px)
+  .navContainer
+    flex-direction: row
+    flex-wrap: nowrap
+    justify-content: space-between
+    margin-right: 1%
+
+  .textContainer
+    display: none
+  .buttonDiv
+      display: none
+  .menu-icon
+
+   display: inline-flex
+
+
+

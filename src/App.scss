@@ -1,0 +1,31 @@
+@import "assets/colors";
+
+
+
+
+.App {
+  text-align: start ;
+  margin-top:3.473%;
+  margin-left: 10.417%;
+  margin-right: 10.417% ;
+
+}
+
+
+
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@media (max-width: 1024px) {
+  .App {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 1% ;
+}
+
+}

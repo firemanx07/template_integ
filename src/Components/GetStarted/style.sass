@@ -1,0 +1,157 @@
+@import "src/assets/fonts"
+@import "src/assets/colors"
+
+
+.sectionOne
+  margin-top: 5.5%
+  width: 100%
+
+.box1
+  display: flex
+  flex: 1
+  flex-direction: column
+  justify-content: space-between
+  align-items: baseline
+
+.bigContainer
+  flex: 1
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+
+.firstText
+  font-family: $primaryFont
+  font-style: normal
+  font-weight: 500
+  font-size: 50px
+  line-height: 70px
+  color: #0B132A
+
+
+.btn-getStarted
+  display: inline-block
+  font-weight: 400
+  color: #FFF
+  text-align: center
+  vertical-align: middle
+  border: 1px solid transparent
+  padding: .375rem .75rem
+  font-size: 1rem
+  line-height: 1.5
+  width: 250px
+  height: 60px
+  background-color: $primaryColor
+  border-radius: 10px
+  box-shadow: 0 20px 40px 1px  rgba(245, 56, 56, 0.35)
+  &:hover
+    color: rgba(255, 255, 255, 0.6)
+    text-decoration: none
+  &:not(:disabled):not(.disabled)
+    cursor: pointer
+.mycard
+  margin-top: 9%
+  margin-right: 5.41%
+  margin-bottom: 2%
+  box-shadow: 0 15px 50px -30px rgba(13, 16, 37, 0.35)
+
+
+
+.rubik-normal-scarpa-flow-20px
+  color: var(--scarpa-flow)
+  font-family: "Rubik", Helvetica, Arial, serif
+  font-size: 20px
+  font-style: normal
+  font-weight: 400
+
+.rubik-bold-white-16px
+  color: white
+  font-family: "Rubik", Helvetica, Arial, serif
+  font-size: 16px
+  font-style: normal
+  font-weight: 700
+
+
+.secondText
+  font-family: $primaryFont
+  font-style: normal
+  font-weight: normal
+  font-size: 16px
+  line-height: 30px
+  color: #4F5665
+
+.location
+    flex: 1
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.divTwo
+  flex: 1
+  display: flex
+  flex-direction: row
+  flex-wrap: nowrap
+  justify-content: space-around
+
+.threeCom
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+
+
+.icon
+    background-color: #FFECEC
+    border-radius: 70px
+    width: 55px
+    height: 55px
+    color: red
+    display: flex
+    justify-content: center
+    align-items: center
+.mycard-mobile
+   display: none
+@media (max-width: 1024px)
+  .mac
+     display: none
+  .divTwo
+     flex-direction: column
+     margin-right: 1%
+  .threeCom
+     flex-direction: column
+     justify-content: center
+
+  .box1
+    background-image: url("../../assets/mobile/getstarted.svg")
+    background-size: cover
+    background-repeat: no-repeat
+    align-items: center
+
+  .firstText
+    text-align: center
+    font-family: $primaryFont
+    font-style: normal
+    font-weight: 500
+    font-size: 24px
+    line-height: 40px
+    color: #0B132A
+  .secondText
+    font-size: 16px
+    line-height: 30px
+  .btn-getStarted
+    width: 151px
+    height: 66px
+  .mycard-mobile
+
+    display: flex
+    margin: 53px
+    flex-direction: column
+    align-items: center
+    justify-content: center
+  .card-item
+    box-shadow:  0 15px 50px -30px rgba(13, 16, 37, 0.35)
+    width: 57.745%
+    height: 70%
+
+  .mycard
+    display: none
+

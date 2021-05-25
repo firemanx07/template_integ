@@ -1,0 +1,114 @@
+@import "src/assets/fonts"
+@import "src/assets/colors"
+
+.boxes
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  //margin-top: 60px
+  margin-bottom: 20%
+  position: relative
+.box-container
+    flex: 1
+    display: flex
+    flex-direction: column
+    justify-content: center
+    border: 2px solid #DDDDDD
+    border-radius: 10px
+    align-items: center
+    margin-left: 5%
+    margin-top: 5%
+    &:hover
+     border: 2px solid #F53838
+
+
+
+
+.freePlan
+  margin-top: 5%
+  font-family: $primaryFont
+  font-style: normal
+  font-weight: 500
+  font-size: 18px
+  line-height: 30px
+  margin-bottom: 30pxF
+
+.divIcon
+  color: #2FAB73
+  margin-right:  25px
+
+.littleText
+  padding-left: 20px
+  text-align: center
+  font-family: $primaryFont
+  font-style: normal
+  font-weight: normal
+  font-size: 14px
+  line-height: 30px
+  color: #4F5665
+
+.fourText
+  flex: 1
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+.iconText
+  display: flex
+  flex-direction: row
+  align-content: center
+  align-items: center
+
+
+.select
+  border-radius: 50px
+  width: 177px
+  height: 45px
+  margin-bottom: 50px
+  border-width: revert
+  &:hover
+    box-shadow: 0 20px 40px 1px rgba(238, 34, 34, 0.226)
+
+
+.selectText
+  font-weight: bold
+
+.buttonDiv2
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  margin-top: 50%
+
+.freeText
+  font-family: $primaryFont
+  font-style: normal
+  font-weight: 500
+  font-size: 25px
+  line-height: 30px
+  text-align: center
+  color: #0B132A
+  margin-bottom: 20px
+
+.borderColor
+  border-color: #F53838
+
+@media (max-width: 1024px)
+  .boxes
+    display: contents
+    //flex-direction: row
+    justify-content: space-around
+    margin-top: 60px
+    margin-bottom: 20%
+    margin-right: 8%
+
+
+  .box-container
+    padding-left: 20%
+    padding-right: 20%
+    width: 85%
+    margin-left: 7.5%
+
+
+
+
+

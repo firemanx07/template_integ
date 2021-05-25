@@ -1,0 +1,66 @@
+@import "src/assets/fonts"
+@import "src/assets/colors"
+.sideContainer
+  display: none
+
+@media (max-width: 1024px)
+
+  .sideContainer
+    display: flex
+    left: -88%
+    width: 88%
+    position: fixed
+    height: 100vh
+    top: 0
+    flex-direction: column
+    flex-wrap: nowrap
+    align-items: flex-start
+    justify-content: space-between
+    background-color: #FFFFFF
+    padding-left: 4%
+    padding-top: 4%
+    box-shadow:  0 15px 100px -30px rgba(13, 16, 37, 0.35)
+    overflow-x: hidden
+    transition: all ease-in-out 500ms
+    &.is-toggled
+     left: 0
+
+  .logo-container-menu
+    margin-bottom: 10%
+
+  .textMenu
+    font-family: $primaryFont
+    font-style: normal
+    font-weight: normal
+    font-size: 24px
+    line-height: 28px
+    color: #4F5665
+
+    margin-bottom: 27px
+  .textContainerMenu
+
+    display: flex
+    flex-wrap: wrap
+    flex-direction: column
+
+    text-align: start
+    justify-content: space-between
+
+  .buttonDivMenu
+
+    flex-direction: row
+    display: flex
+    width: 95%
+    justify-content: space-around
+    align-items: baseline
+  .SignIn-menu
+    font-family: $primaryColor
+    font-style: normal
+    font-weight: 500
+    font-size: 24px
+    line-height: 28px
+
+    color: #0B132A
+
+
+
